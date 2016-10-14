@@ -1,0 +1,10 @@
+D:\Local_Repository\Local_Project\bin\Debug\Local_Project.exe
+D:\Local_Repository\Local_Project\bin\Debug\Local_Project.pdb
+D:\Local_Repository\Local_Project\bin\Debug\Local_Project.xml
+D:\Local_Repository\Local_Project\obj\Debug\ResolveAssemblyReference.cache
+D:\Local_Repository\Local_Project\obj\Debug\Local_Project.Form1.resources
+D:\Local_Repository\Local_Project\obj\Debug\Local_Project.Resources.resources
+D:\Local_Repository\Local_Project\obj\Debug\Local_Project.vbproj.GenerateResource.Cache
+D:\Local_Repository\Local_Project\obj\Debug\Local_Project.exe
+D:\Local_Repository\Local_Project\obj\Debug\Local_Project.xml
+D:\Local_Repository\Local_Project\obj\Debug\Local_Project.pdb
