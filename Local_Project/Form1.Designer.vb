@@ -23,14 +23,9 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox
         Me.ComboBox1 = New System.Windows.Forms.ComboBox
         Me.Button2 = New System.Windows.Forms.Button
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox
-        Me.CheckBox4 = New System.Windows.Forms.CheckBox
         Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox
-        Me.CheckBox5 = New System.Windows.Forms.CheckBox
         Me.SuspendLayout()
         '
         'Button1
@@ -41,16 +36,6 @@ Partial Class Form1
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(217, 161)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(81, 17)
-        Me.CheckBox1.TabIndex = 1
-        Me.CheckBox1.Text = "CheckBox1"
-        Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'ComboBox1
         '
@@ -69,36 +54,6 @@ Partial Class Form1
         Me.Button2.Text = "Button2"
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'CheckBox2
-        '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(231, 105)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(81, 17)
-        Me.CheckBox2.TabIndex = 4
-        Me.CheckBox2.Text = "CheckBox2"
-        Me.CheckBox2.UseVisualStyleBackColor = True
-        '
-        'CheckBox3
-        '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(50, 69)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(81, 17)
-        Me.CheckBox3.TabIndex = 5
-        Me.CheckBox3.Text = "CheckBox3"
-        Me.CheckBox3.UseVisualStyleBackColor = True
-        '
-        'CheckBox4
-        '
-        Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(49, 105)
-        Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(81, 17)
-        Me.CheckBox4.TabIndex = 6
-        Me.CheckBox4.Text = "CheckBox4"
-        Me.CheckBox4.UseVisualStyleBackColor = True
-        '
         'CheckedListBox1
         '
         Me.CheckedListBox1.FormattingEnabled = True
@@ -107,44 +62,23 @@ Partial Class Form1
         Me.CheckedListBox1.Size = New System.Drawing.Size(120, 94)
         Me.CheckedListBox1.TabIndex = 7
         '
-        'CheckBox5
-        '
-        Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Location = New System.Drawing.Point(144, 185)
-        Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.Size = New System.Drawing.Size(81, 17)
-        Me.CheckBox5.TabIndex = 8
-        Me.CheckBox5.Text = "CheckBox5"
-        Me.CheckBox5.UseVisualStyleBackColor = True
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(513, 262)
-        Me.Controls.Add(Me.CheckBox5)
         Me.Controls.Add(Me.CheckedListBox1)
-        Me.Controls.Add(Me.CheckBox4)
-        Me.Controls.Add(Me.CheckBox3)
-        Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
     Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
     Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox3 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox4 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckedListBox1 As System.Windows.Forms.CheckedListBox
-    Friend WithEvents CheckBox5 As System.Windows.Forms.CheckBox
 
 End Class
